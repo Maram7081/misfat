@@ -1,0 +1,19 @@
+Facture:                                          
+-créez un devis (tronsofrme devis en facture en un clic)   -->                                   
+-créez une facture    --> ajouter facture               |     
+ 
+                      -->liste facture (documentation)   |
+-Energistrez un paiement --> fcture d'avoir 
+-Relancez une facture    --> les factures datée          |
+                       --> les articles non factures  
+- définir les traifs en fonction de marge souhiaté 
+-gerrer listes de clients ou d'articles       
+-créez un document (voir directement les modification dans le document final ) 
+
+***************************
+fournissure :  
+-ajout fournisseur 
+-liste fournisseur
+-statistiques 
+- transaction 
+-

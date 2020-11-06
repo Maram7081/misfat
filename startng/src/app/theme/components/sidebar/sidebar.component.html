@@ -1,0 +1,25 @@
+
+  <div class="sidebar-outer">
+
+    <a class="logo d-flex align-items-center" routerLink="/" (click)="closeSubMenus()" *ngIf="settings.theme.sidebarIsFixed">
+      <img  *ngIf="menuT==='mini'" src="/assets/img/app/button.png" style="width: 82%;margin-left: -10%;
+    margin-top: 13%;" alt="logo">
+      <img *ngIf="menuT==='default'"  src="/assets/img/app/logo.png" style="    width:67%; margin-left: 4%;" alt="logo" >
+    </a>
+
+<!-- SideNav slide-out button -->
+
+  <a  *ngIf="menuT==='default'" class="btn btn-default toggle" (click)="chooseMenuType(type)"  style="position: absolute;
+    left: 83%;
+    top: 2%;
+   color:#012d62;">
+    <i class="fa fa-bars"></i></a>
+    <a  *ngIf="menuT==='mini'" class="btn btn-default toggle" (click)="chooseMenuType(type)"  style=" position: absolute;   left: 55%;top: 2%;color:#012d62;">
+      <i class="fa fa-bars"></i></a>
+
+
+    <!--  (click)="showSetting=!showSetting"-->
+    <app-vertical-menu [menuItems]="menuItems"></app-vertical-menu>
+
+  </div>
+
